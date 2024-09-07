@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Location</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Lincoln~344,+Illinois,+Chicago,+USA" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <span>Store Location: Lincoln~344, Illinois, Chicago, USA</span>
+            </div>
+            <div>
+                <button type="button" class="btn btn-outline-secondary">Eng</button>
+                <select class="btn btn-outline-secondary">
+                    <option>USD</option>
+                </select>
+                <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='signin.html'">Sign In</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='signup.html'">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <!-- First Div: Logo -->
+            <div class="logo">
+                <img src="path_to_logo.png" alt="Logo" height="40"> <!-- Replace with your logo path -->
+                <span>Ecobazar</span>
+            </div>
+
+            <!-- Second Div: Search Bar -->
+            <div class="search-bar d-flex">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-success ml-2">Search</button>
+            </div>
+
+            <!-- Third Div: Icons -->
+            <div class="icons d-flex align-items-center">
+                <i class="far fa-heart fa-2x mr-3"></i>
+                <div class="shopping-cart d-flex align-items-center">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                    <span class="ml-2">Shopping cart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white py-2">
+        <div class="row justify-content-between align-items-center">
+            <!-- First Div: Main Menu -->
+            <div class="col-md-8">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop <i class="fas fa-chevron-down"></i> <!-- Dropdown arrow -->
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Shop 1</a>
+                                    <a class="dropdown-item" href="#">Shop 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages <i class="fas fa-chevron-down"></i> <!-- Dropdown arrow -->
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <a class="dropdown-item" href="#">Page 1</a>
+                                    <a class="dropdown-item" href="#">Page 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Second Div: Address -->
+            <div class="col-md-4 text-right">
+                <i class="fas fa-phone-alt"></i> (219) 555-0114
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <!-- Large left section -->
+        <div class="sub-container large">
+          <div class="content">
+            <h1>Fresh & Healthy Organic Food</h1>
+            <p>Sale up to <span class="highlight">30% OFF</span></p>
+            <p>Free shipping on all orders</p>
+            <button class="shop-btn">Shop Now</button>
+          </div>
+        </div>
+      
+        <!-- Right section -->
+        <div class="right-container">
+          <!-- Top right div -->
+          <div class="sub-container small top">
+            <div class="content">
+              <h1>Summer Sale</h1>
+              <p>75% OFF</p>
+              <p>Only Fruits & Vegetables</p>
+              <button class="shop-btn">Shop Now</button>
+            </div>
+          </div>
+          
+          <!-- Bottom right div -->
+          <div class="sub-container small bottom">
+            <div class="content">
+              <h1>Best Deal</h1>
+              <p>Special Products</p>
+              <p>Deal of the Month</p>
+              <button class="shop-btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feature-item">
+          <i class="fas fa-truck"></i>
+          <div class="feature-text">
+            <h3>Free Shipping</h3>
+            <p>Free shipping on all your orders</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-headset"></i>
+          <div class="feature-text">
+            <h3>Customer Support 24/7</h3>
+            <p>Instant access to Support</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-shield-alt"></i>
+          <div class="feature-text">
+            <h3>100% Secure Payment</h3>
+            <p>We ensure your payment is safe</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-money-bill-wave"></i>
+          <div class="feature-text">
+            <h3>Money-Back Guarantee</h3>
+            <p>30 Days Money-Back Guarantee</p>
+          </div>
+        </div>
+      </div>
+       </div> 
+      <div class="categories-section">
+        <div class="header">
+            <h2>Popular Categories</h2>
+            <button class="view-all">View All </button>
+        </div>
+        <div class="categories">
+            <div class="category">
+                <img src="assets/fresh-fruit.jpg" alt="Fresh Fruit">
+                <a href="products/fresh-fruit.html"><p>Fresh Fruit</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/fresh-vegetables.jpg" alt="Fresh Vegetables">
+                <a href="products/fresh-vegetables.html"><p>Fresh Vegetables</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/meat-fish.jpg" alt="Meat & Fish">
+                <a href="products/meat-fish.html"><p>Meat & Fish</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/snacks.jpg" alt="Snacks">
+                <a href="products/snacks.html"><p>Snacks</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/beverages.jpg" alt="Beverages">
+                <a href="products/beverages.html"><p>Beverages</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/beauty-health.jpg" alt="Beauty & Health">
+                <a href="products/beauty-health.html"><p>Beauty & Health</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/bread-bakery.jpg" alt="Bread & Bakery">
+                <a href="products/bread-bakery.html"><p>Bread & Bakery</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/baking-needs.jpg" alt="Baking Needs">
+                <a href="products/baking-needs.html"><p>Baking Needs</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/cooking.jpg" alt="Cooking">
+                <a href="products/cooking.html"><p>Cooking</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/diabetic-food.jpg" alt="Diabetic Food">
+                <a href="products/diabetic-food.html"><p>Diabetic Food</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/dish-detergents.jpg" alt="Dish Detergents">
+                <a href="products/dish-detergents.html"><p>Dish Detergents</p></a>
+            </div>
+            <div class="category">
+                <img src="assets/oil.jpg" alt="Oil">
+                <a href="products/oil.html"><p>Oil</p></a>
+            </div>
+        </div>
+    </div>
+    <div id="product-container" class="container">
+        <div class="header">
+            <h1>Popular Products</h1>
+            <button class="view-all">View All</button>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-apple.jpg" alt="Green Apple">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Apple</h3>
+                    <p class="product-price">$14.99</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-indian-malta.jpg" alt="Fresh Indian Malta">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Indian Malta</h3>
+                    <p class="product-price">$20.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="bok-choy.jpg" alt="Bok Choy">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Bok Choy</h3>
+                    <p class="product-price">$12.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-lettuce.jpg" alt="Green Lettuce">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Lettuce</h3>
+                    <p class="product-price">$9.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="eggplant.jpg" alt="Eggplant">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Eggplant</h3>
+                    <p class="product-price">$34.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="big-potatoes.jpg" alt="Big Potatoes">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Big Potatoes</h3>
+                    <p class="product-price">$20.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-cauliflower.jpg" alt="Fresh Cauliflower">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Cauliflower</h3>
+                    <p class="product-price">$12.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-capsicum.jpg" alt="Green Capsicum">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Capsicum</h3>
+                    <p class="product-price">$10.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-cabbage.jpg" alt="Fresh Cabbage">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Cabbage</h3>
+                    <p class="product-price">$10.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-chillies.jpg" alt="Green Chillies">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Chillies</h3>
+                    <p class="product-price">$34.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+        </div> 
+         <div id="product-container" class="container">
+        <div class="header">
+            <h1>Popular Products</h1>
+            <button class="view-all">View All</button>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-apple.jpg" alt="Green Apple">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Apple</h3>
+                    <p class="product-price">$14.99</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-indian-malta.jpg" alt="Fresh Indian Malta">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Indian Malta</h3>
+                    <p class="product-price">$20.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="bok-choy.jpg" alt="Bok Choy">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Bok Choy</h3>
+                    <p class="product-price">$12.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-lettuce.jpg" alt="Green Lettuce">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Lettuce</h3>
+                    <p class="product-price">$9.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="eggplant.jpg" alt="Eggplant">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Eggplant</h3>
+                    <p class="product-price">$34.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="big-potatoes.jpg" alt="Big Potatoes">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Big Potatoes</h3>
+                    <p class="product-price">$20.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-cauliflower.jpg" alt="Fresh Cauliflower">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Cauliflower</h3>
+                    <p class="product-price">$12.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-capsicum.jpg" alt="Green Capsicum">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Capsicum</h3>
+                    <p class="product-price">$10.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="fresh-cabbage.jpg" alt="Fresh Cabbage">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Fresh Cabbage</h3>
+                    <p class="product-price">$10.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="image-wrapper">
+                    <img src="green-chillies.jpg" alt="Green Chillies">
+                    <div class="icon-buttons">
+                        <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                        <button class="view-button"><i class="fa fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Green Chillies</h3>
+                    <p class="product-price">$34.00</p>
+                    <div class="product-rating">
+                        <span class="stars" data-rating="1">☆</span>
+                        <span class="stars" data-rating="2">☆</span>
+                        <span class="stars" data-rating="3">☆</span>
+                        <span class="stars" data-rating="4">☆</span>
+                        <span class="stars" data-rating="5">☆</span>
+                    </div>
+                </div>
+                <div class="cart-button-wrapper">
+                    <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+        </div> 
+            <div id="special-offers-container">
+                <div class="subdiv" id="subdiv1">
+                  <h2>Sale of the Month</h2>
+                  <p id="timer1">00 days : 00 hours : 00 mins : 00 secs</p>
+                  <button>Shop Now →</button>
+                </div>
+                <div class="subdiv" id="subdiv2">
+                  <h2>Low-Fat Meat</h2>
+                  <p>Starting at $7.99</p>
+                  <button>Shop Now →</button>
+                </div>
+                <div class="subdiv" id="subdiv3">
+                  <h2>100% Fresh Fruit</h2>
+                  <p>Up to 64% off</p>
+                  <button>Shop Now →</button>
+                </div>
+              </div>
+            </div>   
+        </div>  
+            <div id="product-container" class="container">
+                <div class="header">
+                    <h1>Hot Deals</h1>
+                    <button class="view-all">View All</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card large-product" id="featured-product">
+                        <div class="image-wrapper">
+                            <img src="green-apple.jpg" alt="Green Apple">
+                            <div class="icon-buttons">
+                                <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                                <button class="view-button"><i class="fa fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3 class="product-title">Green Apple</h3>
+                            <p class="product-price">$14.99</p>
+                            <div class="product-rating">
+                                <span class="stars" data-rating="1">☆</span>
+                                <span class="stars" data-rating="2">☆</span>
+                                <span class="stars" data-rating="3">☆</span>
+                                <span class="stars" data-rating="4">☆</span>
+                                <span class="stars" data-rating="5">☆</span>
+                            </div>
+                        </div>
+                        <div class="cart-button-wrapper">
+                            <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="fresh-indian-malta.jpg" alt="Fresh Indian Malta">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Fresh Indian Malta</h3>
+                        <p class="product-price">$20.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="bok-choy.jpg" alt="Bok Choy">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Bok Choy</h3>
+                        <p class="product-price">$12.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="green-lettuce.jpg" alt="Green Lettuce">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Green Lettuce</h3>
+                        <p class="product-price">$9.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="eggplant.jpg" alt="Eggplant">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Eggplant</h3>
+                        <p class="product-price">$34.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="big-potatoes.jpg" alt="Big Potatoes">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Big Potatoes</h3>
+                        <p class="product-price">$20.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="fresh-cauliflower.jpg" alt="Fresh Cauliflower">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Fresh Cauliflower</h3>
+                        <p class="product-price">$12.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="green-capsicum.jpg" alt="Green Capsicum">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Green Capsicum</h3>
+                        <p class="product-price">$10.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="fresh-cabbage.jpg" alt="Fresh Cabbage">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Fresh Cabbage</h3>
+                        <p class="product-price">$10.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="green-chillies.jpg" alt="Green Chillies">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Green Chillies</h3>
+                        <p class="product-price">$34.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="promo-banner">
+            <div class="heading">SUMMER SALE</div>
+            <div class="subheading">37% OFF</div>
+            <div class="description">Free on all your orders. Free shipping and 30 days money-back guarantee</div>
+            <button class="button">Shop Now →</button>
+        </div>
+        <div id="product-container" class="container">
+            <div class="header">
+                <h1>Featured Products</h1>
+                <button class="view-all">View All</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="green-apple.jpg" alt="Green Apple">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Green Apple</h3>
+                        <p class="product-price">$14.99</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="fresh-indian-malta.jpg" alt="Fresh Indian Malta">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Fresh Indian Malta</h3>
+                        <p class="product-price">$20.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="bok-choy.jpg" alt="Bok Choy">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Bok Choy</h3>
+                        <p class="product-price">$12.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="green-lettuce.jpg" alt="Green Lettuce">
+                        <div class="icon-buttons">
+                            <button class="wishlist-button"><i class="fa fa-heart"></i></button>
+                            <button class="view-button"><i class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Green Lettuce</h3>
+                        <p class="product-price">$9.00</p>
+                        <div class="product-rating">
+                            <span class="stars" data-rating="1">☆</span>
+                            <span class="stars" data-rating="2">☆</span>
+                            <span class="stars" data-rating="3">☆</span>
+                            <span class="stars" data-rating="4">☆</span>
+                            <span class="stars" data-rating="5">☆</span>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrapper">
+                        <button class="cart-button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="news-section">
+                <h2>Latest News</h2>
+                <div class="news-container">
+                  <div class="news-card">
+                    <img src="assets/orange-image.jpg" alt="Sliced Oranges">
+                    <div class="date">18 NOV</div>
+                    <div class="news-content">
+                      <div class="category">Food</div>
+                      <h3>Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.</h3>
+                      <p>By Admin | 55 Comments</p>
+                      <a href="#" class="read-more">Read More →</a>
+                    </div>
+                  </div>
+              
+                  <div class="news-card">
+                    <img src="assets/image-2.jpg" alt="Eggs Dish">
+                    <div class="date">29 JAN</div>
+                    <div class="news-content">
+                      <div class="category">Food</div>
+                      <h3>Eget lobortis lorem lacinia. Vivamus pharetra semper.</h3>
+                      <p>By Admin | 55 Comments</p>
+                      <a href="#" class="read-more">Read More →</a>
+                    </div>
+                  </div>
+              
+                  <div class="news-card">
+                    <img src="assets/image-3.jpg" alt="Salad Dish">
+                    <div class="date">21 FEB</div>
+                    <div class="news-content">
+                      <div class="category">Food</div>
+                      <h3>Maecenas blandit risus elementum mauris malesuada.</h3>
+                      <p>By Admin | 55 Comments</p>
+                      <a href="#" class="read-more">Read More →</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>   
+            <div class="newsletter">
+                <div class="title-description">
+                  <h2>Subscribe to our Newsletter</h2>
+                  <p>Receive updates and latest news direct from our team. Simply enter your email below:</p>
+                </div>
+                <div class="input-group">
+                  <input type="email" placeholder="Your email address">
+                  <button>Subscribe</button>
+                </div>
+                <div class="social-icons">
+                  <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+        </div>       
+        
+        <footer class="footer">
+            <div class="footer-logo">
+              <h2>Ecobazar</h2>
+              <p>Morti cursus portthor enim lobortis molestia</p>
+              <p>(219) 555-0114</p>
+              <p>Proxy@gmail.com</p>
+            </div>
+            <div class="footer-columns">
+              <div class="footer-column">
+                <h3>My Account</h3>
+                <ul>
+                  <li><a href="#">Order History</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Shopping Cart</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Policy</h3>
+                <ul>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Track Order</a></li>
+                  <li><a href="#">Product</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                  <li><a href="#">Fruit & Vegetables</a></li>
+                  <li><a href="#">Meat & Fish</a></li>
+                  <li><a href="#">Bread & Bakery</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+          </footer>
+          <div class="footer-bottom">
+            <p>Ecobazar © 2021 All Rights Reserved</p>
+            <div class="payment-methods">
+              <img src="visa.png" alt="VISA">
+              <img src="payment.png" alt="Payment">
+            </div>
+          </div>
+          
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
