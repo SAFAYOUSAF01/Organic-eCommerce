@@ -14,6 +14,7 @@ body {
     color: red; 
     margin-right: 5px;
 }
+
 .logo img {
     margin-right: 10px;
 }
@@ -56,6 +57,45 @@ body {
 .navbar-nav .dropdown-toggle i {
     margin-left: 5px; /* Adjust space between text and arrow */
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .search-bar input {
+        max-width: 250px; /* Adjust max-width for large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-link {
+        margin-right: 10px; /* Adjust margin for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-right: 5px; /* Adjust margin for tablets */
+    }
+
+    .search-bar input {
+        max-width: 200px; /* Adjust max-width for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        margin-right: 0; /* Remove margin for small screens */
+        text-align: center; /* Center text for small screens */
+    }
+
+    .search-bar input {
+        max-width: 100%; /* Full width for small screens */
+    }
+
+    .text-right i {
+        margin-right: 0; /* Remove margin for small screens */
+    }
+}
+
 
 /* Main container layout for larger screens */
 .main-container {
@@ -931,70 +971,91 @@ p {
               justify-content: flex-end;
             }
           }
-         .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-direction: row; /* Change this to row */
-  justify-content: space-between; /* Ensures equal spacing between columns */
-  align-items: flex-start; /* Aligns items to the top */
-  width: 100%; /* Ensures the footer takes full width */
-}
-
-.footer-logo {
-  text-align: left; /* Aligns the logo to the left */
-  margin-bottom: 20px;
-  flex: 1; /* Ensures it takes up a portion of space */
-}
-
-.footer-columns {
-  display: flex;
-  justify-content: space-between;
-  flex: 3; /* Gives more space to the columns */
-}
-
-.footer-column {
-  flex: 1;
-  margin: 0 10px;
-}
-
-.footer-column h3 {
-  margin-bottom: 10px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin-bottom: 5px;
-}
-
-.footer-column ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-column ul li a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* Ensures the footer takes full width */
-  background-color: #333;
-  color: #fff; /* Text color for copyright */
-  padding: 10px 20px; /* Adds some padding for aesthetics */
-}
-
-.payment-methods img {
-  margin-left: 10px;
-  height: 24px; /* Ensures the payment icons are appropriately sized */
-}
+          .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+          }
+          
+          .footer-logo {
+            text-align: left;
+            margin-bottom: 20px;
+            flex: 1;
+          }
+          
+          .footer-columns {
+            display: flex;
+            justify-content: space-between;
+            flex: 3;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+          }
+          
+          .footer-column {
+            flex: 1;
+            margin: 0 10px;
+          }
+          
+          .footer-column h3 {
+            margin-bottom: 10px;
+          }
+          
+          .footer-column ul {
+            list-style: none;
+            padding: 0;
+          }
+          
+          .footer-column ul li {
+            margin-bottom: 5px;
+          }
+          
+          .footer-column ul li a {
+            color: #fff;
+            text-decoration: none;
+          }
+          
+          .footer-column ul li a:hover {
+            text-decoration: underline;
+          }
+          
+          .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+          }
+          
+          .payment-methods img {
+            margin-left: 10px;
+            height: 24px;
+          }
+          
+          /* Media Queries for responsiveness */
+          @media (max-width: 768px) {
+            .footer {
+              flex-direction: column;
+              align-items: center;
+            }
+          
+            .footer-logo, .footer-columns, .footer-bottom {
+              flex: 1 100%;
+              text-align: center;
+            }
+          
+            .footer-column {
+              margin: 10px 0;
+            }
+          }
+          
 
 
               
