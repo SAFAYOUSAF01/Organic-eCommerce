@@ -95,8 +95,6 @@ body {
         margin-right: 0; /* Remove margin for small screens */
     }
 }
-
-
 /* Main container layout for larger screens */
 .main-container {
     display: flex;
