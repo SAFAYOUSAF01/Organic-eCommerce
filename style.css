@@ -200,8 +200,8 @@ p {
 /* For small screens and mobile devices */
 @media (max-width: 768px) {
     .main-container {
-        flex-direction: column;
-        height: auto; /* Adjust height to fit content */
+        flex-direction: row;
+        height: 250px; /* Adjust height to fit content */
     }
 
     .large, .right-container {
@@ -232,7 +232,7 @@ p {
     }
 
     .right-container {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -292,7 +292,7 @@ p {
   /* Responsive design */
   @media screen and (max-width: 768px) {
     .features {
-      flex-direction: column;
+      flex-direction: row;
     }
     .feature-item {
       width: 100%;
@@ -752,7 +752,7 @@ p {
         }
         @media (max-width: 768px) {
             .promo-banner {
-                flex-direction: column;
+                flex-direction: row;
                 height: auto;
                 padding: 40px 20px;
             }
@@ -1040,7 +1040,7 @@ p {
           /* Media Queries for responsiveness */
           @media (max-width: 768px) {
             .footer {
-              flex-direction: column;
+              flex-direction: row;
               align-items: center;
             }
           
